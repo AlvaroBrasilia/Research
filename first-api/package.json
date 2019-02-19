@@ -1,0 +1,41 @@
+{
+  "name": "first-api",
+  "version": "1.0.0",
+  "description": "My first API",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-integration": "mocha --opts test/integration/mocha.opts test/integration/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AlvaroBrasilia/first-api.git"
+  },
+  "keywords": [
+    "My",
+    "First",
+    "API"
+  ],
+  "author": "Alvaro Luiz Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlvaroBrasilia/first-api/issues"
+  },
+  "homepage": "https://github.com/AlvaroBrasilia/first-api#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "express": "^4.16.4",
+    "sequelize": "^4.42.0",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.4.2"
+  }
+}
